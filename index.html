@@ -13,16 +13,30 @@
         
         <div class="inpSection">
             <div class="amt">
-                <label for="amount">Enter Total Amount:   </label>
-                <input type="number" name="amount" id="amount" placeholder="Enter Total Amount">
+                <label for="amount" >Enter Amount(principal):   </label>
+                <input type="number" name="amount" id="amount" placeholder="Enter Amount(principal)">
             </div>
             <div class="time">
-                <label for="time">Enter Time:   </label>
-                <input type="number" name="time" id="time" placeholder="Enter Time">
+                <label for="time">Enter Year/s:   </label>
+                <!-- <input type="number" name="time" id="time" placeholder="Enter Year/s"> -->
+                <select name="time" id="time" placeholder="Enter Year/s">
+                    <option value=”1”>1</option>
+                    <option value=”2”>2</option>
+                    <option value=”3”>3</option>
+                    <option value=”4”>4</option>
+                    <option value=”5”>5</option>
+                    <option value=”6”>6</option>
+                    <option value=”7”>7</option>
+                    <option value=”8”>8</option>
+                    <option value=”9”>9</option>
+                    <option value=”10”>10</option>
+                    <option value=”11”>11</option>
+                    <option value=”12”>12</option>
+                    </select>
             </div>
             <div class="rate">
-                <label for="rate">Rate: </label>
-                <input type="number" name="rate" id="rate" placeholder="Enter Rate">
+                <label for="rate">Interest: </label>
+                <input type="number" name="rate" id="rate" placeholder="Enter Interest">
             </div>
             <div class="button">
                 <button onclick="Calculate()">Calculate</button>
